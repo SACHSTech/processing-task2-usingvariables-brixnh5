@@ -1,14 +1,16 @@
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
-	
+	  //intializing height and width
     int intWidth = 800;
     int intHeight = 800;
 
+    //initializing size
     public void settings() {
       size(intWidth, intHeight);
     }
 
+    // setting background colour
     public void setup() {
       background(210, 255, 173);
     }
@@ -44,33 +46,16 @@ public class Sketch extends PApplet {
       noStroke();
       fill(251, 255, 255);
       ellipse((float)(intWidth * 0.75), intHeight/8, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.8), intHeight/8, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.85), intHeight/8, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.7775), (float)(intHeight * 0.0875), (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.8225), (float)(intHeight * 0.0875), (float)(intWidth * 0.075), (float)(intHeight * 0.075));
   
       //cloud 2
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.15), intHeight/4, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse(intWidth/5, intHeight/4, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse(intWidth/4, intHeight/4, (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.1775), (float)(intHeight * 0.2125), (float)(intWidth * 0.075), (float)(intHeight * 0.075));
-  
-      fill(251, 255, 255);
       ellipse((float)(intWidth * 0.2225), (float)(intHeight * 0.2125), (float)(intWidth * 0.075), (float)(intHeight * 0.075));
       
     }
